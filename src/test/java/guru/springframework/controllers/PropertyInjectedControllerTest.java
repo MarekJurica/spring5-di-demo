@@ -1,3 +1,4 @@
+
 package guru.springframework.controllers;
 
 import guru.springframework.services.GreetingServiceImpl;
@@ -24,3 +25,4 @@ public class PropertyInjectedControllerTest {
         assertEquals(GreetingServiceImpl.HELLO_GURUS, propertyInjectedController.sayHello());
     }
 }
+

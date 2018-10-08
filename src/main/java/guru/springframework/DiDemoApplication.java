@@ -22,3 +22,4 @@ public class DiDemoApplication {
 		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
 	}
 }
+ 

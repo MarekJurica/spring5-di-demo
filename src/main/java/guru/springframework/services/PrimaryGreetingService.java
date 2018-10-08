@@ -1,3 +1,4 @@
+
 package guru.springframework.services;
 
 import org.springframework.context.annotation.Primary;
@@ -19,3 +20,4 @@ public class PrimaryGreetingService implements GreetingService {
         return greetingRepository.getEnglishGreeting();
     }
 }
+

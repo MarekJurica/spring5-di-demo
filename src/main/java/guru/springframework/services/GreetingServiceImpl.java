@@ -1,3 +1,4 @@
+
 package guru.springframework.services;
 
 import org.springframework.stereotype.Service;
@@ -15,3 +16,4 @@ public class GreetingServiceImpl implements GreetingService {
         return HELLO_GURUS;
     }
 }
+
